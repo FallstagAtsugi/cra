@@ -1,10 +1,11 @@
 import React from "react";
+import ColorfulMessage from "./components/ColorfulMessage";
 
 const App = () => {
   return (
     <>
       <h1>こんにちは！</h1>
-      <p>お元気ですか？</p>
+      <ColorfulMessage color="blue" messeage="お元気ですか？" />
     </>
   );
 };
