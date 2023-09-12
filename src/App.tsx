@@ -4,6 +4,7 @@ import ColorfulMessage from "./components/ColorfulMessage";
 const App = () => {
   const onClickCountUp = () => {
     setNum(num + 1);
+    console.log(num);
   };
   const [num, setNum] = useState(0);
   return (
