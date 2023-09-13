@@ -2,7 +2,6 @@ import React from "react";
 
 const ColorfulMessage = (props: any) => {
   const { coler, messeage } = props;
-  console.log(props);
   const contentStyle = {
     color: coler,
     fontSize: "18px",
